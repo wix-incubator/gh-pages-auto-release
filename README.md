@@ -6,7 +6,7 @@ All you have to do is run `gh-pages-auto-release` in your release script
 
 ```json
 {
-  "name": "my-package",
+  "name": "package-name",
   "version": "1.0.0",
   "scripts": {
     "build": ":", 
@@ -19,9 +19,9 @@ All you have to do is run `gh-pages-auto-release` in your release script
 }
 ```
 
-### Your package is automatically re-published every CI build
+### Your page is automatically re-published every CI build
 
-Once you're build is complete in CI, your package can be accessed at:
+Once you're build is complete in CI, your page can be accessed at:
 ```sh
 https://wix-private.github.io/package-name/
 ```
