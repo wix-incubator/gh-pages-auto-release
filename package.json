@@ -1,0 +1,22 @@
+{
+  "name": "gh-pages-auto-release",
+  "version": "1.0.0",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+  },
+  "scripts": {
+    "build": ":",
+    "test": ":",
+    "release": "wnpm-release",
+    "postpublish": "rm -f npm-shrinkwrap.json"
+  },
+  "optionalDependencies": {
+    "wnpm-ci": "*"
+  },
+  "bin": {
+    "gh-pages-auto-release": "index.js"
+  },
+  "dependencies": {
+  }
+}
