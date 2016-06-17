@@ -1,4 +1,4 @@
-# bower-auto-release
+# gh-pages-auto-release
 
 This node module will help you to publish your package to dist folder as a github page.
 
