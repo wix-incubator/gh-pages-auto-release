@@ -11,8 +11,11 @@
     "release": "wnpm-release",
     "postpublish": "rm -f npm-shrinkwrap.json"
   },
-  "optionalDependencies": {
-    "wnpm-ci": "*"
+  "dependencies": {
+    "command-line-args": "^3.0.0"
+  },
+  "devDependencies": {
+    "wnpm-ci": "latest"
   },
   "bin": {
     "gh-pages-auto-release": "index.js"
