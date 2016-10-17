@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "publishConfig": {
-    "registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "build": ":",
