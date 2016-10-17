@@ -10,7 +10,7 @@ git push origin gh-pages
 shopt -s extglob dotglob
 
 rm -rf !(.git)
-cp -R $1/dist/* .
+cp -R $1/$2/* .
 git add --all .
 git commit -a -m "gh-pages"
 git push --set-upstream origin gh-pages
