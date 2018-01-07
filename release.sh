@@ -2,7 +2,7 @@
 
 cd /tmp
 rm -rf gh-pages
-git clone $GIT_REMOTE_URL gh-pages
+git clone $3 gh-pages
 cd gh-pages
 git checkout --orphan gh-pages
 shopt -s extglob dotglob
