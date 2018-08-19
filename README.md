@@ -31,7 +31,7 @@ This option is typically used on monorepos that have multiple projects with gh p
 
 Once you're build is complete in CI, your page can be accessed at:
 ```sh
-https://wix-private.github.io/package-name/
+https://wix.github.io/package-name/
 ```
 where `package-name` is the name you gave your git repository
 
